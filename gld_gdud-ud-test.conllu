@@ -68,7 +68,7 @@
 # sent_id = Nanai_grammar_7
 # text = тёть Маша icə-ǯə-mi=təni un-ǯi xəməə bi-rə=təni mii guči un-ǯi=go тёть Маш tərək ga-čem-bi mədəsi-j=go
 # text[eng] = Aunt Masha looks and says… She is silent. I ask again: “Aunt Masha, did I buy it right?” I ask.
-1	тёть	тёть	NOUN	_	Foreign=Yes	2	appos	_	_
+1	тёть	тёть	NOUN	_	Foreign=Yes	2	parataxis	_	_
 2	Маша	Маша	PROPN	_	Foreign=Yes	4	nsubj	_	_
 3	icə-ǯə-mi=təni	icə	VERB	_	VerbForm=Conv	4	advcl	_	ConvType=Sim
 4	un-ǯi	un	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
@@ -77,7 +77,7 @@
 7	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 8	guči	guči	ADV	_	_	9	advmod	_	_
 9	un-ǯi=go	un	VERB	_	Number=Sing|Person=1|Tense=Pres	4	parataxis	_	_
-10	тёть	тёть	NOUN	_	Foreign=Yes	11	appos	_	_
+10	тёть	тёть	NOUN	_	Foreign=Yes	11	parataxis	_	_
 11	Маш	Маш	PROPN	_	Foreign=Yes	13	vocative	_	_
 12	tərək	tərək	ADV	_	_	13	advmod	_	_
 13	ga-čem-bi	ga	VERB	_	Number=Sing|Person=1|Tense=Past	9	ccomp	_	_
@@ -266,7 +266,7 @@
 3	Miša	Miša	PROPN	_	_	2	appos	_	_
 4	Miša	Miša	PROPN	_	_	7	nsubj	_	_
 5	i	i	CCONJ	_	_	7	cc	_	_
-6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj:outer	_	_
 7	gələ-gu-məri=təni	gələ	VERB	_	Number=Plur|VerbForm=Conv	2	parataxis	_	ConvType=Sim|Evident=Rep
 8	Miša=təni	Miša	PROPN	_	_	9	nsubj	_	_
 9	taktola-xa-ni	taktola	VERB	_	Aspect=Perf|Number=Sing|Person=3|Tense=Past	7	conj	_	_
@@ -295,7 +295,7 @@
 2	əsi	əsi	ADV	_	_	6	advmod	_	_
 3	min-du	min	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 4	duim-bə	duim	NUM	_	Case=Acc|NumType=Card	5	nummod	_	_
-5	ajŋani	ajŋani	NOUN	_	_	6	nsubj	_	_
+5	ajŋani	ajŋani	NOUN	_	_	6	nsubj:outer	_	_
 6	bi-čim	bi	VERB	_	Number=Sing|Person=1|Tense=Past	0	root	_	_
 7	biǯərə	biǯərə	ADV	_	_	6	advmod	_	_
 
@@ -338,7 +338,7 @@
 1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	ələ	ələ	ADV	_	_	5	advmod	_	_
 3	tuə-gu-j=goani	tuə	VERB	_	Number=Sing|Person=3|Tense=Pres	5	advcl	_	Evident=Rep
-4	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj:outer	_	_
 5	ao-ǯam-bi	ao	VERB	_	Number=Sing|Person=1|Tense=Fut	0	root	_	_
 6	jəru-či	jəru	NOUN	_	_	5	obl	_	Case=Dir
 7	ii-rə	ii	VERB	_	VerbForm=Conv	5	advcl	_	ConvType=Nsim
@@ -490,10 +490,10 @@
 9	ənə-i-du-ə-ni	ənə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 10	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 11	nuči-kən-du-ə-pu	nuči	NOUN	_	Case=Dat|Number=Plur|Person=1	13	advcl	_	Degree=Dim
-12	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj:outer	_	_
 13	taosi	taosi	ADV	_	_	3	advmod	_	_
 14	olbin-či-məri	olbin	VERB	_	Aspect=Imp|Number=Plur|VerbForm=Conv	15	advcl	_	_
-15	xupi-i	xupi	VERB	_	Tense=Pres	16	conj	_	_
+15	xupi-i	xupi	VERB	_	Tense=Pres	16	parataxis	_	_
 16	bi-či-pu	bi	VERB	_	Number=Plur|Person=1|Tense=Past	3	conj	_	_
 
 # sent_id = Nanai_grammar_47
@@ -507,7 +507,7 @@
 6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 7	sin-ǯi	sin	PRON	_	Case=Ins|Person=2|PronType=Prs	9	obl	_	_
 8	mapa-l-o	mapa	VERB	_	Mood=Imp|VerbForm=Fin	9	parataxis	_	_
-9	mama-l-am-bi	mama	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	4	ccomp:quote	_	SpaceAfter=No
+9	mama-l-am-bi	mama	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	4	ccomp	_	SpaceAfter=No|Quotative=Yes
 10	=əm	=əm	PART	_	_	9	discourse	_	_
 11	təj	təj	DET	_	PronType=Dem	12	det	_	_
 12	mərgən	mərgən	NOUN	_	_	13	nsubj	_	_
@@ -523,7 +523,7 @@
 4	a.na.na	a.na.na	INTJ	_	_	2	parataxis	_	_
 5	xaosi	xaosi	ADV	_	_	7	advmod	_	_
 6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-7	sere-o-rʲ-a	sere	VERB	_	Tense=Pres	2	ccomp:quote	_	Mood=Impers
+7	sere-o-rʲ-a	sere	VERB	_	Tense=Pres	2	ccomp	_	Mood=Impers|Quotative=Yes
 8	ča-du	ča	PRON	_	Case=Dat|PronType=Prs	7	obl	_	_
 9	sere-o-rʲ-a	sere	VERB	_	Tense=Pres	7	conj	_	Mood=Impers
 
@@ -558,7 +558,7 @@
 9	waa-ro	waa	VERB	_	Mood=Imp	7	parataxis	_	_
 10	un-ǯi-nʲ	un	VERB	_	Number=Sing|Person=3|Tense=Pres	7	parataxis	_	SpaceAfter=No
 11	=goa	=goa	PART	_	_	10	discourse	_	_
-12	ubjej	ubjej	VERB	_	Mood=Imp	10	ccomp:quote	_	_
+12	ubjej	ubjej	VERB	_	Mood=Imp	10	ccomp	_	Quotative=Yes
 13	menja	menja	PRON	_	Case=Acc|Person=1|PronType=Prs	12	obj	_	_
 14	govorit	govorit	VERB	_	Number=Sing|Person=3|Tense=Pres	10	parataxis	_	_
 
@@ -602,7 +602,7 @@
 # text[eng] = But I don’t understand what she is saying!
 1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	SpaceAfter=No
 2	=təni	=təni	PART	_	_	4	discourse	_	_
-3	nʲoanʲ	nʲoanʲ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	nʲoanʲ	nʲoanʲ	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj:outer	_	_
 4	un-ǯi-wə-ni	un	VERB	_	Number=Sing|Person=3|Tense=Pres	0	root	_	_
 5	otole-a-si	otole	VERB	_	Number=Sing|Person=1|Polarity=Neg|Tense=Pres	4	parataxis	_	_
 
@@ -688,7 +688,7 @@
 # text[eng] = I… my younger brother… my name is Kolya; in childhood I was called Kolya. And my younger brother is Edik.
 1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	parataxis	_	_
-3	nəu-j	nəu	NOUN	_	Number=Sing|Person=1	4	appos	_	_
+3	nəu-j	nəu	NOUN	_	Number=Sing|Person=1	4	parataxis	_	_
 4	gərbu-j	gərbu	NOUN	_	Number=Sing|Person=1	0	root	_	SpaceAfter=No
 5	=təni	=təni	PART	_	_	4	discourse	_	_
 6	Коля	Коля	PROPN	_	Foreign=Yes	4	appos	_	_
@@ -697,7 +697,7 @@
 9	Коля	Коля	PROPN	_	Foreign=Yes	8	xcomp	_	_
 10	a	a	CCONJ	_	_	8	cc	_	_
 11	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
-12	nəu-j	nəu	NOUN	_	Number=Sing|Person=1	13	nsubj	_	_
+12	nəu-j	nəu	NOUN	_	Number=Sing|Person=1	13	nsubj:outer	_	_
 13	Эдик	Эдик	PROPN	_	Foreign=Yes	8	parataxis	_	_
 
 # sent_id = Nanai_grammar_64
@@ -707,7 +707,7 @@
 2	amem-bi	amem	NOUN	_	Number=Sing|Person=1	7	nsubj	_	_
 3	председатель	председатель	NOUN	_	Foreign=Yes	2	appos	_	_
 4	колхоза	колхоз	NOUN	_	Case=Gen|Foreign=Yes	3	nmod	_	_
-5	Бельды	Бельды	PROPN	_	Foreign=Yes	7	appos	_	_
+5	Бельды	Бельды	PROPN	_	Foreign=Yes	7	parataxis	_	_
 6	Чубак	Чубак	PROPN	_	Foreign=Yes	5	flat:name	_	_
 7	Алексеевич	Алексеевич	PROPN	_	Foreign=Yes	0	root	_	_
 8	gərbu-nʲ	gərbu	NOUN	_	Number=Sing|Person=3	7	parataxis	_	_
@@ -719,9 +719,9 @@
 2	xoǯe-ra	xoǯe	VERB	_	VerbForm=Conv	6	advcl	_	ConvType=Nsim
 3	instituta-du	instituta	NOUN	_	Case=Dat	6	obl	_	_
 4	Лёва	Лёва	PROPN	_	Foreign=Yes	6	nsubj	_	_
-5	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj:outer	_	_
 6	tačeo-če-xa-pu	tačeo	VERB	_	Aspect=Imp|Number=Plur|Person=1|Tense=Past	0	root	_	_
-7	xəm	xəm	DET	_	PronType=Tot	6	nsubj	_	_
+7	xəm	xəm	DET	_	PronType=Tot	6	nsubj:outer	_	_
 8	instituta	instituta	NOUN	_	_	6	obl	_	_
 
 # sent_id = Nanai_grammar_66
@@ -768,7 +768,7 @@
 4	səkpə-či	səkpə	VERB	_	Aspect=Imp|Tense=Pres	5	advcl	_	_
 5	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obj	_	_
 6	ǯəwən	ǯəwən	NOUN	_	_	7	nsubj	_	_
-7	səkpə-či	səkpə	VERB	_	Aspect=Imp|Tense=Pres	8	conj	_	_
+7	səkpə-či	səkpə	VERB	_	Aspect=Imp|Tense=Pres	8	parataxis	_	_
 8	o-če-ni	o	VERB	_	Number=Sing|Person=3|Tense=Past	0	root	_	_
 
 # sent_id = Nanai_grammar_70
@@ -874,7 +874,7 @@
 3	xoro-du	xoro	NOUN	_	Case=Dat	7	obl	_	_
 4	əj	əj	DET	_	PronType=Dem	5	det	_	_
 5	kopejkə	kopejkə	NOUN	_	_	7	obj	_	_
-6	nəə-rə	nəə	PRON	_	PronType=Prs	7	obj	_	_
+6	nəə-rə	nəə	PRON	_	PronType=Prs	7	iobj	_	_
 7	xaj	ta-VERB	VERB	_	VerbForm=Vnoun	0	root	_	_
 8	ta-go-j	ta	VERB	_	Number=Sing|Person=3|Tense=Past	7	ccomp	_	_
 9	buu-xə-ni	buu	VERB	_	Number=Sing|Person=3|Tense=Past	8	ccomp	_	_
@@ -914,7 +914,7 @@
 5	xaj	xaj	PRON	_	PronType=Prs	6	obj	_	_
 6	ǯaka	ǯaka	NOUN	_	_	3	obl	_	_
 7	təj	təj	DET	_	PronType=Dem	8	det	_	_
-8	xləbə	xləbə	NOUN	_	_	6	obj	_	_
+8	xləbə	xləbə	NOUN	_	_	6	iobj	_	_
 
 # sent_id = Nanai_grammar_83
 # text = gə mii ulən sikəu naaon o-ǯam-bʲa=tani
@@ -923,7 +923,7 @@
 2	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 3	ulən	ulən	ADJ	_	_	6	amod	_	_
 4	sikəu	sikəu	NOUN	_	_	6	obj	_	_
-5	naaon	naaon	NOUN	_	_	6	obj	_	_
+5	naaon	naaon	NOUN	_	_	6	iobj	_	_
 6	o-ǯam-bʲa	o-ǯam	VERB	_	Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
 7	=tani	=tani	PART	_	_	6	discourse	_	_
 
@@ -1019,7 +1019,7 @@
 4	gusərə-xə-ni	gusərə	VERB	_	Tense=Past	2	ccomp	_	_
 5	gəə	gəə	ADV	_	_	4	discourse	_	_
 6	mama	mama	NOUN	_	_	4	nsubj	_	_
-7	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+7	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj:outer	_	_
 8	piktə-gu-i	piktə	NOUN	_	Case=Dat	4	obj	_	_
 9	baa-ka-i	baa	VERB	_	Tense=Past	4	ccomp	_	_
 
@@ -1045,7 +1045,7 @@
 # text = xaj-go-j xaj-go-j — daaji dawa mii waa-xam-bi
 # text[eng] = Why, why — I caught a big chum salmon!
 1	xaj-go-j	xaj	VERB	_	Reflex=Yes|VerbForm=Conv	6	mark	_	_
-2	xaj-go-j	xaj	VERB	_	Reflex=Yes|VerbForm=Conv	1	reparandum	_	_
+2	xaj-go-j	xaj	VERB	_	Reflex=Yes|VerbForm=Conv	6	reparandum	_	_
 3	—	—	PUNCT	_	_	6	punct	_	_
 4	daaji	daaji	ADJ	_	Degree=Pos	5	amod	_	_
 5	dawa	dawa	NOUN	_	Case=Acc	6	obj	_	_
@@ -1055,7 +1055,7 @@
 # sent_id = Nanai_grammar_96
 # text = mii=də ənə-go-j ta-am-bi=əm=də tuj əgǯiə waa-go-i
 # text[eng] = I also want to go, to catch so many!
-1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	SpaceAfter=No
+1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	SpaceAfter=No
 2	=də	=də	PART	_	_	1	discourse	_	_
 3	ənə-go-j	ənə	VERB	_	Reflex=Yes|VerbForm=Conv	5	mark	_	_
 4	ta-am-bi	ta	VERB	_	Tense=Pres	0	root	_	SpaceAfter=No
@@ -1091,10 +1091,10 @@
 5	ama	ama	NOUN	_	Case=Nom	8	nsubj	_	_
 6	əgǯi	əgǯi	ADV	_	Degree=Pos	7	advmod	_	_
 7	sogdata	sogdata	NOUN	_	Case=Nom	8	obj	_	_
-8	wa-oče-ni	waa	VERB	_	Mood=Cond|Person=3|VerbForm=Conv	4	advcl	_	_
+8	wa-oče-ni	waa	VERB	_	Mood=Cnd|Person=3|VerbForm=Conv	4	advcl	_	_
 9	uliksə	uliksə	NOUN	_	Case=Nom	11	obj	_	_
-10	bəjum-bə	bəjum	NOUN	_	Case=Acc	11	obj	_	_
-11	wa-oče-ni	waa	VERB	_	Mood=Cond|Person=3|VerbForm=Conv	8	conj	_	_
+10	bəjum-bə	bəjum	NOUN	_	Case=Acc	11	iobj	_	_
+11	wa-oče-ni	waa	VERB	_	Mood=Cnd|Person=3|VerbForm=Conv	8	conj	_	_
 
 # sent_id = Nanai_grammar_100
 # text = tuj ta-ra xaj mii=dəə soŋgo-lo-xa
@@ -1145,7 +1145,7 @@
 1	Mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	sumbi-ə-wə	sumbi	PRON	_	Number=Plur|Person=2|PronType=Prs	3	obj	_	_
 3	aŋgaǯaam-ba-su	aŋgaǯaam	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
-4	uǯi-xəm-bi	uǯi	NOUN	_	Case=Acc|Number=Plur	3	obj	_	_
+4	uǯi-xəm-bi	uǯi	NOUN	_	Case=Acc|Number=Plur	3	iobj	_	_
 
 # sent_id = Nanai_grammar_104
 # text = mii=dəə pərgə-mi təj xurəən pəgiə-lə-ni o-da əlkə xesaŋgo-xam-bi
@@ -1173,11 +1173,11 @@
 1	totapʲ=tani	totapʲ	ADV	_	_	14	discourse	_	_
 2	xaj	xaj	SCONJ	_	_	14	mark	_	_
 3	mii=təni	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	14	nsubj	_	_
-4	əniə=təni	əniə	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
-5	ama=tani	ama	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+4	əniə=təni	əniə	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj:outer	_	_
+5	ama=tani	ama	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj:outer	_	_
 6	рыба	рыба	NOUN	_	Case=Acc|Foreign=Yes	7	obj	_	_
 7	ryba	ryba	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl	_	_
-8	waa-ri	waa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+8	waa-ri	waa	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
 9	xaj-du	xaj	SCONJ	_	_	7	mark	_	_
 10	Maŋbo-du	Maŋbo	PROPN	_	Case=Dat	7	obl	_	_
 11	rybačili	rybačili	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
@@ -1192,7 +1192,7 @@
 1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	murči-j-i=də	murči	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	təǯə	təǯə	NOUN	_	_	2	obj	_	_
-4	bi-j	bi	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	bi-j	bi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
 5	təǯə-ni=goani	təǯə	NOUN	_	_	2	parataxis	_	_
 6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	orken	orken	ADJ	_	Degree=Pos	8	advmod	_	_
@@ -1209,7 +1209,7 @@
 5	mii=dəə	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 6	sin-ǯi	sin-ǯi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nmod	_	_
 7	gəsə	gəsə	ADV	_	_	9	advmod	_	_
-8	ənu-u-ri	ənu-u	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	ənu-u-ri	ənu-u	AUX	_	Mood=Imp|Tense=Pres|VerbForm=Fin	9	aux	_	_
 9	piktə-i	piktə	NOUN	_	Case=Acc	2	ccomp	_	_
 10	ičə-ndə-mi	ičə	VERB	_	VerbForm=Conv	9	acl	_	Purpose=Prs
 
@@ -1239,8 +1239,8 @@
 # text = mimbi-ə mimbi-ə xaj mii orondola-j-a oče-go-ǯa-či un-ǯi
 # text[eng] = "You will now be instead of me", he says
 1	mimbi-ə	mimbi	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
-2	mimbi-ə	mimbi	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
-3	xaj	xaj	PRON	_	Case=Acc|PronType=Prs	6	obj	_	_
+2	mimbi-ə	mimbi	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	iobj	_	_
+3	xaj	xaj	PRON	_	Case=Acc|PronType=Prs	6	iobj	_	_
 4	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	6	obl	_	_
 5	orondola-j-a	orondola	VERB	_	Tense=Fut	6	obl	_	_
 6	oče-go-ǯa-či	ǯa	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin	0	root	_	VerbFormOrig=Rep
@@ -1250,7 +1250,7 @@
 # text = mii=təni mii=təni ǯakpa-do-a-ni bi-čim
 # text[eng] = I was nearby
 1	mii=təni	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	mii=təni	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	mii=təni	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj:outer	_	_
 3	ǯakpa-do-a-ni	ǯakpa	ADP	_	Case=Dat|Number=Sing|Person=3	4	obl	_	_
 4	bi-čim	bi	VERB	_	Tense=Past	0	root	_	_
 
