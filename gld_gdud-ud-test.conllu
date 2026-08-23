@@ -486,7 +486,7 @@
 5	=da	=da	PART	_	_	9	discourse	_	_
 6	əǯi	əǯi	X	_	_	9	dep	_	_
 7	armij	armij	NOUN	_	Case=Dat	9	obl	_	_
-8	əǯi	əǯi	AUX	_	Polarity=Neg|Tense=Past	9	aux	_	_
+8	əǯi	əǯi	AUX	_	Polarity=Neg	9	aux	_	_
 9	ənə-i-du-ə-ni	ənə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 10	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
 11	nuči-kən-du-ə-pu	nuči	NOUN	_	Case=Dat|Number=Plur|Person=1	13	advcl	_	Degree=Dim
@@ -569,7 +569,7 @@
 2	murči-j-i	murči	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	ulən	ulən	ADJ	_	_	5	amod	_	_
 4	naj	naj	NOUN	_	_	5	nsubj	_	_
-5	bi-či-nʲ	bi	AUX	_	Number=Sing|Person=3|Tense=Past	2	ccomp	_	_
+5	bi-či-nʲ	bi	AUX	_	Number=Sing|Person=3	2	ccomp	_	_
 6	biǯərə	biǯərə	ADV	_	_	5	advmod	_	_
 7	nʲoanʲ	nʲoanʲ	PRON	_	Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	gudiəsi-xə-ni	gudiəsi	VERB	_	Number=Sing|Person=3|Tense=Past	5	parataxis	_	_
@@ -1177,7 +1177,7 @@
 5	ama=tani	ama	PRON	_	Number=Sing|Person=3|PronType=Prs	14	nsubj:outer	_	_
 6	рыба	рыба	NOUN	_	Case=Acc|Foreign=Yes	7	obj	_	_
 7	ryba	ryba	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl	_	_
-8	waa-ri	waa	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+8	waa-ri	waa	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
 9	xaj-du	xaj	SCONJ	_	_	7	mark	_	_
 10	Maŋbo-du	Maŋbo	PROPN	_	Case=Dat	7	obl	_	_
 11	rybačili	rybačili	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	14	ccomp	_	_
@@ -1192,7 +1192,7 @@
 1	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	murči-j-i=də	murči	VERB	_	Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	təǯə	təǯə	NOUN	_	_	2	obj	_	_
-4	bi-j	bi	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+4	bi-j	bi	AUX	_	_	3	cop	_	_
 5	təǯə-ni=goani	təǯə	NOUN	_	_	2	parataxis	_	_
 6	mii	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
 7	orken	orken	ADJ	_	Degree=Pos	8	advmod	_	_
@@ -1209,7 +1209,7 @@
 5	mii=dəə	mii	PRON	_	Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 6	sin-ǯi	sin-ǯi	PRON	_	Number=Sing|Person=2|PronType=Prs	9	nmod	_	_
 7	gəsə	gəsə	ADV	_	_	9	advmod	_	_
-8	ənu-u-ri	ənu-u	AUX	_	Mood=Imp|Tense=Pres|VerbForm=Fin	9	aux	_	_
+8	ənu-u-ri	ənu-u	VERB	_	Mood=Imp|Tense=Pres|VerbForm=Fin	9	xcomp	_	_
 9	piktə-i	piktə	NOUN	_	Case=Acc	2	ccomp	_	_
 10	ičə-ndə-mi	ičə	VERB	_	VerbForm=Conv	9	acl	_	Purpose=Prs
 
