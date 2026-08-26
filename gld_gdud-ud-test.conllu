@@ -489,7 +489,7 @@
 8	əǯi	əǯi	AUX	_	Polarity=Neg	9	aux	_	_
 9	ənə-i-du-ə-ni	ənə	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	_
 10	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
-11	nuči-kən-du-ə-pu	nuči	NOUN	_	Case=Dat|Number=Plur|Person=1	13	advcl	_	Degree=Dim
+11	nuči-kən-du-ə-pu	nuči	NOUN	_	Case=Dat|Degree=Dim|Number=Plur|Person=1	13	advcl	_	_
 12	buə	buə	PRON	_	Number=Plur|Person=1|PronType=Prs	13	nsubj:outer	_	_
 13	taosi	taosi	ADV	_	_	3	advmod	_	_
 14	olbin-či-məri	olbin	VERB	_	Aspect=Imp|Number=Plur|VerbForm=Conv	15	advcl	_	_
