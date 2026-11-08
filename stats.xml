@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>113</sentences><tokens>821</tokens><words>821</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>113</sentences><tokens>821</tokens><words>821</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="336" /><!-- mii, bi, un, təj, xaj, waa, =təni, mama, mapa, ta, ənə, naj, əj, =də, daai -->
+  <forms unique="492" /><!-- mii, təj, =təni, xaj, un-ǯi-ni, əj, =də, daai, gə, =da, a, i, mii=təni, naj, simbi-ə -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="16">
+    <tag name="ADJ">24</tag><!-- daai, nuuči, ulən, bajan, boŋgo, daaji, goro, ixərə, maikpo, nani -->
+    <tag name="ADP">4</tag><!-- -či, baaro, pəgiə, ǯakpa -->
+    <tag name="ADV">51</tag><!-- əsi, gəsə, tuj, əgǯi, biǯərə, tul, tərək, xonʲ, ələ, ajŋani -->
+    <tag name="AUX">3</tag><!-- bi, əǯi -->
+    <tag name="CCONJ">11</tag><!-- a, i, təj -->
+    <tag name="DET">24</tag><!-- təj, əj, xəm, čaa -->
+    <tag name="INTJ">10</tag><!-- gə, a.na.na, gəə, ənʲə-paaŋgo -->
+    <tag name="NOUN">159</tag><!-- naj, gərbu, mama, piktə, səə, əktə, тёть, ajŋani, amem, kopejkə -->
+    <tag name="NUM">21</tag><!-- elan, nadan, tojŋga, ǯoan, ǯuər, ajŋanʲa, duim, dəxi, gočen, meŋgan -->
+    <tag name="PART">49</tag><!-- =təni, =də, =da, =goa, =tani, =əm, =go, =daa, =dəə, =goani -->
+    <tag name="PRON">174</tag><!-- mii, xaj, simbi, mimbi, min, sin, buə, čawa, ag, nʲoani -->
+    <tag name="PROPN">43</tag><!-- Miša, Маша, Maŋbo, Бельды, Коля, Лёва, Bildy, Diktunə, Dina, Gaoda -->
+    <tag name="PUNCT">1</tag><!-- — -->
+    <tag name="SCONJ">7</tag><!-- təj, xaj, ag, oseni, tuj -->
+    <tag name="VERB">239</tag><!-- bi, un, waa, ənə, ta, saa, uŋ, ao, gələ, mapa -->
+    <tag name="X">1</tag><!-- əǯi -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="45">
+    <feat name="Aspect" value="Hab" upos="VERB">1</feat><!-- xoda-mǯi -->
+    <feat name="Aspect" value="Imp" upos="VERB">17</feat><!-- səkpə-či, boatoa-či-mi, daxaa-či-mi, ele-se-j=go, era-so-j, era-so-j-i, gərbiə-si-u-ri, gərbiə-si-xəm, olbin-či-məri, səkpə-či-lu-xən -->
+    <feat name="Aspect" value="Perf" upos="VERB">1</feat><!-- taktola-xa-ni -->
+    <feat name="Case" value="Abl" upos="NOUN">1</feat><!-- ajŋani-ǯiə -->
+    <feat name="Case" value="Acc" upos="NOUN,NUM,PRON,VERB">44</feat><!-- simbi-ə, mimbi-ə, ajŋanʲa-wa, amem-bi, kopejkə, səəpə-wə, xaj-wa=daa, ambaam-ba-ni, boja-xam-ba, bumbu-ə -->
+    <feat name="Case" value="Dat" upos="ADJ,ADP,NOUN,PRON,PROPN,VERB">34</feat><!-- Maŋbo-du, səə-du-i, ča-du, ərin-du, Muxu-du, Najxen-du, Susu-du-i, ajŋani-du, altama-kan-do, armij -->
+    <feat name="Case" value="Gen" upos="NOUN">1</feat><!-- колхоза -->
+    <feat name="Case" value="Ins" upos="ADJ,NOUN,PRON">10</feat><!-- sin-ǯi, min-ǯi, nuči-kan-ǯi, soogǯon-ǯi, səəŋkurə-ǯi, xatan-ǯi, əniə-ǯi -->
+    <feat name="Case" value="Loc" upos="ADP,NOUN,PROPN">5</feat><!-- Najxin-də, omo-la-ne-a, pəgiə-lə-ni, xamea-la-j-a, ǯuliə-lə-ni -->
+    <feat name="Case" value="Nom" upos="NOUN">7</feat><!-- ama, nadan, nasal-ni, sogdata, uliksə, xoren, xurəən -->
+    <feat name="Degree" value="Abs" upos="ADJ">1</feat><!-- goro-la -->
+    <feat name="Degree" value="Dim" upos="NOUN">1</feat><!-- nuči-kən-du-ə-pu -->
+    <feat name="Degree" value="Pos" upos="ADJ,ADV">8</feat><!-- daai, bajan, daaji, maikpo-an=daa, orken, əgǯi -->
+    <feat name="Degree" value="Sup" upos="ADJ">3</feat><!-- daai, boŋgo -->
+    <feat name="Foreign" value="Yes" upos="NOUN,PART,PROPN,VERB">32</feat><!-- тёть, Маша, Бельды, Коля, Лёва, Алексеевич, Алёша, Дмитрий, Маш, Сергеевна -->
+    <feat name="Mood" value="Cnd" upos="VERB">2</feat><!-- wa-oče-ni -->
+    <feat name="Mood" value="Imp" upos="VERB">11</feat><!-- ənu-u-ri, dərəmi-u-su, ga-po-ri, gələ-ndə-u, mapa-l-o, ubjej, waa-ro, xukču-xəəri, ǯare-ro, ənə-u -->
+    <feat name="Mood" value="Ind" upos="VERB">20</feat><!-- aŋgaǯaam-ba-su, buu-rə-si, ele-go-j-du-ja-wa, gaaǯo-xan, icə-wən-kim=go, mama-l-am-bi, oče-go-ǯa-či, ryba, rybačili, soŋgo-lo-xa -->
+    <feat name="Mood" value="Nec" upos="VERB">1</feat><!-- ǯə-musi-i-j-ə -->
+    <feat name="Number" value="Dual" upos="NOUN">1</feat><!-- ambaam-ba-ni -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON,VERB">24</feat><!-- buə, ao-xa-či, bi-či-pu, bumbu-ə, dərəmi-u-su, gurun-səl, gələ-gu-məri=təni, gərbu-səl-pu, loc-sal, naj-sal-či -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,AUX,NOUN,PRON,VERB">306</feat><!-- mii, un-ǯi-ni, mii=təni, otole-a-si, simbi-ə, un-ǯi, uŋ-ki-ni, ag-bi, bi-čim-bi, gərbu-nʲ -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM">20</feat><!-- elan, nadan, tojŋga, ǯuər, duim-bə, dəxi, gočen, meŋgan, nadaan, nadeeŋgo -->
+    <feat name="NumType" value="Ord" upos="NUM">2</feat><!-- ajŋanʲa, ǯoan -->
+    <feat name="Person" value="1" upos="ADJ,NOUN,PRON,VERB">228</feat><!-- mii, mii=təni, otole-a-si, bi-čim-bi, buə, mii=dəə, mimbi-ə, ag-bi, amem-bi, mama-l-am-bi=əm -->
+    <feat name="Person" value="2" upos="PRON,VERB">18</feat><!-- simbi-ə, sin-ǯi, sii, dərəmi-u-su, simbi-wə, sumbi-ə-wə, waa-xa, xukču-xəəri, ənə-u -->
+    <feat name="Person" value="3" upos="ADP,AUX,NOUN,PRON,VERB">70</feat><!-- un-ǯi-ni, un-ǯi, uŋ-ki-ni, gərbu-nʲ, bi-či-nʲ, jaa-i, nʲoani, nʲoanʲ, un-ǯi-nʲ, wa-oče-ni -->
+    <feat name="Polarity" value="Neg" upos="AUX,VERB">16</feat><!-- otole-a-si, saa-ra-sim-bi, anaa-i, buu-rə-si, doolǯe-a-sem-bi, gojda-a-sim-bi=əm, gələ-ə-sim-bi, mapa-l-a-sem-bi, saa-ra-sim, waa-ra-sim-bi -->
+    <feat name="Polarity" value="Pos" upos="VERB">1</feat><!-- ese-go-pi -->
+    <feat name="Poss" value="Yes" upos="ADJ,NOUN,PRON">5</feat><!-- mama-ŋgo-j=tani, bojko-ku, mii, orkeŋ-ko-i -->
+    <feat name="PronType" value="Dem" upos="DET">20</feat><!-- təj, əj, čaa=tani -->
+    <feat name="PronType" value="Int" upos="PRON">2</feat><!-- xaj -->
+    <feat name="PronType" value="Prs" upos="PRON">172</feat><!-- mii, mii=təni, simbi-ə, sin-ǯi, mimbi-ə, xaj, buə, mii=dəə, čawa, mii=də -->
+    <feat name="PronType" value="Tot" upos="DET">4</feat><!-- xəm -->
+    <feat name="Reflex" value="Yes" upos="NOUN,VERB">11</feat><!-- xaj-go-j, piktə-i, pokto-i, sokta-či-i, səə-du-i, urə-xən-du-i, waa-go-i, xaǯom-bi, ǯook-či-i, ənə-go-j -->
+    <feat name="Tense" value="Fut" upos="VERB">9</feat><!-- ao-ǯam-bi, arga-la-ǯam-bi, mama-l-am-bi, o-ǯam-bʲa, orondola-j-a, oče-go-ǯa-či, waa-ǯam-bi, ǯi-ǯu-ǯəm-bi=əm=də, ǯəb-ǯiəm-bi -->
+    <feat name="Tense" value="Past" upos="VERB">74</feat><!-- uŋ-ki-ni, bi-či, bi-čim-bi, balǯe-xam-bi, bi-či-ni, bi-čim, bi-čin, waa-xa, ao-xa-či, aŋgaǯaam-ba-su -->
+    <feat name="Tense" value="Pres" upos="VERB">93</feat><!-- un-ǯi-ni, un-ǯi, otole-a-si, bi-i, bi-j, gərbiə-si-j-či, jaa-i, saa-ra-sim-bi, sere-o-rʲ-a, səkpə-či -->
+    <feat name="VerbForm" value="Conv" upos="VERB">43</feat><!-- wa-oče-ni, xaj-go-j, ao-raa, ačo-go-pi, baa-raa, bi-rə=təni, boatoa-či-mi, daxaa-či-mi, dolǯe-ra=tani, doolǯe-go-ja-wa -->
+    <feat name="VerbForm" value="Fin" upos="VERB">19</feat><!-- aŋgaǯaam-ba-su, ga-po-ri, gaaǯo-xan, icə-wən-kim=go, mapa-l-o, oče-go-ǯa-či, ryba, rybačili, soŋgo-lo-xa, ta-xam-bi -->
+    <feat name="VerbForm" value="Ger" upos="VERB">3</feat><!-- mən-du-i, pulsi-mi, sugǯi-či-i -->
+    <feat name="VerbForm" value="Inf" upos="VERB">1</feat><!-- mora-jč-i -->
+    <feat name="VerbForm" value="Part" upos="VERB">2</feat><!-- boja-xam-ba, xoda-mǯi -->
+    <feat name="VerbForm" value="Vnoun" upos="VERB">5</feat><!-- arga-la-ǯam-bi, mapa-go-i, xaj, əlbəsi-ndə-xən, ənu-u-ri -->
+    <feat name="Voice" value="Cau" upos="VERB">2</feat><!-- icə-wən-kim=go, ii-wu-gu-rəə -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="30">
+    <dep name="acl">7</dep>
+    <dep name="advcl">46</dep>
+    <dep name="advmod">45</dep>
+    <dep name="amod">14</dep>
+    <dep name="appos">17</dep>
+    <dep name="aux">1</dep>
+    <dep name="case">1</dep>
+    <dep name="cc">11</dep>
+    <dep name="ccomp">35</dep>
+    <dep name="conj">29</dep>
+    <dep name="cop">1</dep>
+    <dep name="dep">14</dep>
+    <dep name="det">22</dep>
+    <dep name="discourse">58</dep>
+    <dep name="flat:name">2</dep>
+    <dep name="iobj">8</dep>
+    <dep name="mark">9</dep>
+    <dep name="nmod">13</dep>
+    <dep name="nmod:poss">20</dep>
+    <dep name="nsubj">124</dep>
+    <dep name="nsubj:outer">12</dep>
+    <dep name="nummod">20</dep>
+    <dep name="obj">67</dep>
+    <dep name="obl">72</dep>
+    <dep name="parataxis">46</dep>
+    <dep name="punct">1</dep>
+    <dep name="reparandum">1</dep>
+    <dep name="root">113</dep>
+    <dep name="vocative">2</dep>
+    <dep name="xcomp">10</dep>
+  </deps>
+</treebank>
